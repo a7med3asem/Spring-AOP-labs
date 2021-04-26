@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PracticePluralsight/PracticePluralsight.iml" filepath="$PROJECT_DIR$/PracticePluralsight/PracticePluralsight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1_gettingStarted/day1_gettingStarted.iml" filepath="$PROJECT_DIR$/day1_gettingStarted/day1_gettingStarted.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1_proxy_based/day1_proxy_based.iml" filepath="$PROJECT_DIR$/day1_proxy_based/day1_proxy_based.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day2_AspectJ/day2_AspectJ.iml" filepath="$PROJECT_DIR$/day2_AspectJ/day2_AspectJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day2_Introduction/day2_Introduction.iml" filepath="$PROJECT_DIR$/day2_Introduction/day2_Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flightManagement/flightmanagment.iml" filepath="$PROJECT_DIR$/flightManagement/flightmanagment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module5_CachingAndException/module5_CachingAndException.iml" filepath="$PROJECT_DIR$/module5_CachingAndException/module5_CachingAndException.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-labs.iml" filepath="$PROJECT_DIR$/spring-labs.iml" />
+    </modules>
+  </component>
+</project>

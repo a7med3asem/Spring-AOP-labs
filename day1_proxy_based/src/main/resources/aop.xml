@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+    <bean id="calculator" class="iti.dao.impl.CalculatorImpl" />
+
+    <bean id="calculatorAdvice" class="iti.aspect.advisor.CalculatorAdvice" />
+
+    <bean id="calcBefore" class="iti.aspect.advisor.CalculatorBefore" />
+    <bean id="calcAfter" class="iti.aspect.advisor.CalculatorAfterReturn" />
+    <bean id="calcThrow" class="iti.aspect.advisor.CalculatorAfterThrow" />
+    <bean id="calcAround" class="iti.aspect.advisor.CalculatorAround" />
+
+    <bean id="calculatorProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+
+        <property name="proxyInterfaces">
+            <list>
+                <value>iti.dao.Calculator</value>
+            </list>
+        </property>
+
+        <property name="target" ref="calculator" />
+        <property name="interceptorNames">
+            <list>
+                <value>calcBefore</value>
+                <value>calcAfter</value>
+                <value>calcThrow</value>
+                <value>calcAround</value>
+            </list>
+        </property>
+
+    </bean>
+
+</beans>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="PracticePluralsight" />
+        <module name="module5_CachingAndException" />
+        <module name="day2_AspectJ" />
+        <module name="flightmanagment" />
+        <module name="day2_Introduction" />
+        <module name="day1_proxy_based" />
+        <module name="day1_gettingStarted" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day1_gettingStarted" target="11" />
+      <module name="day1_proxy_based" target="11" />
+      <module name="day2_AspectJ" target="11" />
+      <module name="day2_Introduction" target="11" />
+      <module name="flightmanagment" target="11" />
+      <module name="module5_CachingAndException" target="11" />
+      <module name="PracticePluralsight" target="11" />
+      <module name="spring-labs" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9f62071-a354-4f41-baea-873dfb0a120b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticePluralsight/PracticePluralsight.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticePluralsight/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticePluralsight/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticePluralsight/src/main/java/com/practice/Dao/PassengerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticePluralsight/src/main/java/com/practice/Dao/impl/PassengerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticePluralsight/src/main/java/com/practice/annotation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticePluralsight/src/main/java/com/practice/exception/ExceptionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticePluralsight/src/main/java/com/practice/model/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticePluralsight/src/main/java/com/practice/util/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticePluralsight/src/main/resources/aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-AOP-labs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_gettingStarted/day1_gettingStarted.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_gettingStarted/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_gettingStarted/src/main/java/iti/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_gettingStarted/src/main/java/iti/aspect/advisor/CalculatorAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_gettingStarted/src/main/java/iti/dao/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_gettingStarted/src/main/java/iti/dao/impl/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_gettingStarted/src/main/java/iti/factory/CalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_gettingStarted/src/main/java/iti/handler/CalculatorProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_gettingStarted/src/main/resources/aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/day1_proxy_based.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/java/iti/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/java/iti/aspect/advisor/CalculatorAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/java/iti/aspect/advisor/CalculatorAfterReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/java/iti/aspect/advisor/CalculatorAfterThrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/java/iti/aspect/advisor/CalculatorAround.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/java/iti/aspect/advisor/CalculatorBefore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/java/iti/dao/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/java/iti/dao/impl/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/java/iti/factory/CalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/java/iti/handler/CalculatorProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1_proxy_based/src/main/resources/aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/day2_AspectJ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/aspect/CalculatorAfter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/aspect/CalculatorAfterReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/aspect/CalculatorAfterThrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/aspect/CalculatorAround.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/aspect/CalculatorAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/aspect/CalculatorBefore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/aspect/CalculatorBefore2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/com/day2Intro/aspect/CalculatorAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/com/day2Intro/dao/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/com/day2Intro/dao/MaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/com/day2Intro/dao/MinCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/com/day2Intro/dao/impl/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/com/day2Intro/dao/impl/MaxCalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/java/com/day2Intro/dao/impl/MinCalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_AspectJ/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/day2_Introduction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/src/main/java/com/day2Intro/aspect/CalculatorAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/src/main/java/com/day2Intro/dao/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/src/main/java/com/day2Intro/dao/MaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/src/main/java/com/day2Intro/dao/MinCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/src/main/java/com/day2Intro/dao/impl/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/src/main/java/com/day2Intro/dao/impl/MaxCalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/src/main/java/com/day2Intro/dao/impl/MinCalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_Introduction/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/flightManagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/Dao/PassengerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/Dao/impl/PassengerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/annotation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/exception/ExceptionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/model/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/model/FlightManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/model/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/model/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/util/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/util/LoggingAspect1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/java/com/practice/util/LoggingAspect2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flightManagement/src/main/resources/aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/module5_CachingAndException.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/Dao/PassengerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/Dao/impl/PassengerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/annotation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/exception/ExceptionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/model/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/model/FlightManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/model/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/model/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/util/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/util/LoggingAspect1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/java/com/practice/util/LoggingAspect2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/resources/aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/resources/db-schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5_CachingAndException/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1riip8BJNTqhAPEYTDRVRvwGGRI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9f62071-a354-4f41-baea-873dfb0a120b" name="Default Changelist" comment="" />
+      <created>1619465500582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619465500582</updated>
+      <workItem from="1619465503560" duration="588000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

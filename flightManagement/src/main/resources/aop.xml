@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--       xmlns:aop="http://www.springframework.org/schema/p"-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop-3.0.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <aop:aspectj-autoproxy/>
+
+    <bean id="jim" class="com.practice.model.Passenger">
+        <property name="name" value="Jim"/>
+        <property name="country" value="US"/>
+    </bean>
+
+    <bean id="Jack" class="com.practice.model.Passenger">
+        <property name="name" value="Jack"/>
+        <property name="country" value="UK"/>
+    </bean>
+
+    <bean id="Mark" class="com.practice.model.Passenger">
+        <property name="name" value="Mark"/>
+        <property name="country" value="Australia"/>
+    </bean>
+
+    <bean id="flight" class="com.practice.model.Flight">
+        <property name="id" value="22"/>
+        <property name="passengers">
+            <list>
+                <ref bean="Jack"/>
+                <ref bean="jim"/>
+                <ref bean="Mark"/>
+            </list>
+        </property>
+        <property name="company" value="Egypt"/>
+    </bean>
+
+    <bean id="ticket" class="com.practice.model.Ticket">
+        <property name="passenger" ref="jim"/>
+        <property name="number" value="123"/>
+    </bean>
+
+    <bean name="loggingAspect1" class="com.practice.util.LoggingAspect1"/>
+    <bean name="loggingAspect2" class="com.practice.util.LoggingAspect2"/>
+
+</beans>

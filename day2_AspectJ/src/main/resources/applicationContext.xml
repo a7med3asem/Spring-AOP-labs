@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <aop:aspectj-autoproxy/>
+
+    <bean id="calc" class="com.day2Intro.dao.impl.CalculatorImpl"/>
+    <bean id="aspect" class="com.day2Intro.aspect.CalculatorAspect"/>
+
+    <!--  Aspect annotated classes  -->
+   <bean id="calculatorAspect" class="aspect.CalculatorAspect"/>
+        <!-- <bean id="before" class="aspect.CalculatorBefore"/> -->
+        <!-- <bean id="before2" class="aspect.CalculatorBefore2"/> -->
+    <!--    <bean id="after" class="aspect.CalculatorAfter"/>-->
+    <!--    <bean id="afterReturn" class="aspect.CalculatorAfterReturn"/>-->
+    <!--    <bean id="afterThrow" class="aspect.CalculatorAfterThrow"/>-->
+    <!-- <bean id="around" class="aspect.CalculatorAround"/> -->
+</beans>
