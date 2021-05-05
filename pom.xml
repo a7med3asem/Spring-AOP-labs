@@ -20,6 +20,8 @@
         <module>module5_CachingAndException</module>
         <module>day2_Introduction</module>
         <module>day2_AspectJ</module>
+        <module>module6_AOP_Introductions</module>
+        <module>module6_AOP_Introductions_Declarative</module>
     </modules>
 
     <properties>
@@ -51,25 +53,45 @@
             <version>5.3.6</version>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>springframework</groupId>-->
-<!--            <artifactId>spring-jdbc</artifactId>-->
-<!--            <version>1.2.6</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.3.6</version>
+            <scope>test</scope>
+        </dependency>
 
+        <!-- https://mvnrepository.com/artifact/net.shibboleth.ext/spring-extensions -->
 <!--        <dependency>-->
-<!--            <groupId>hsqldb</groupId>-->
-<!--            <artifactId>hsqldb</artifactId>-->
-<!--            <version>1.8.0.10</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>com.h2database</groupId>-->
-<!--            <artifactId>h2</artifactId>-->
-<!--            <version>1.4.200</version>-->
+<!--            <groupId>net.shibboleth.ext</groupId>-->
+<!--            <artifactId>spring-extensions</artifactId>-->
+<!--            <version>6.0.0</version>-->
 <!--        </dependency>-->
 
 
+        <!--        <dependency>-->
+        <!--            <groupId>springframework</groupId>-->
+        <!--            <artifactId>spring-jdbc</artifactId>-->
+        <!--            <version>1.2.6</version>-->
+        <!--        </dependency>-->
+
+        <!--        <dependency>-->
+        <!--            <groupId>hsqldb</groupId>-->
+        <!--            <artifactId>hsqldb</artifactId>-->
+        <!--            <version>1.8.0.10</version>-->
+        <!--        </dependency>-->
+
+        <!--        <dependency>-->
+        <!--            <groupId>com.h2database</groupId>-->
+        <!--            <artifactId>h2</artifactId>-->
+        <!--            <version>1.4.200</version>-->
+        <!--        </dependency>-->
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.1</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 

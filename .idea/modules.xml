@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/day2_Introduction/day2_Introduction.iml" filepath="$PROJECT_DIR$/day2_Introduction/day2_Introduction.iml" />
       <module fileurl="file://$PROJECT_DIR$/flightManagement/flightmanagment.iml" filepath="$PROJECT_DIR$/flightManagement/flightmanagment.iml" />
       <module fileurl="file://$PROJECT_DIR$/module5_CachingAndException/module5_CachingAndException.iml" filepath="$PROJECT_DIR$/module5_CachingAndException/module5_CachingAndException.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module6_AOP_Introductions/module6_AOP_Introductions.iml" filepath="$PROJECT_DIR$/module6_AOP_Introductions/module6_AOP_Introductions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module6_AOP_Introductions_Declarative/module6_AOP_Introductions_Declarative.iml" filepath="$PROJECT_DIR$/module6_AOP_Introductions_Declarative/module6_AOP_Introductions_Declarative.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-labs.iml" filepath="$PROJECT_DIR$/spring-labs.iml" />
     </modules>
   </component>
